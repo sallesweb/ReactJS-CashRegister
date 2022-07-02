@@ -11,7 +11,7 @@ function App() {
         <Navbar />        
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/login" element={<Login />} />
+            <Route path="/login" element={<Login text="Hello world!" />} />
         </Routes>
     </BrowserRouter>
   );
